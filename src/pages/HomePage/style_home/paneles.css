@@ -1,0 +1,275 @@
+
+
+.container_paneles{
+
+    position:relative;
+    margin-top: 85%;
+    height: auto;
+ 
+
+}
+.sub_paneles{
+    width: 100%;
+    position: relative;
+    left: 0%;
+}
+
+
+/*   primer  panel*/
+.primer_panel{
+    background-image: url("../../../../public/cover-register.png");
+    margin: 4%;
+    border-radius:5px;
+    background-color: black;
+    height:50vh;
+}
+.primera_capa{
+    padding: 5%;
+    border-radius:5px;
+    background: rgba(131, 58, 180, 0.089);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 0.144) 0%, rgba(253, 29, 29, 0.171) 50%, rgba(252, 176, 69, 0.651) 100%);
+    cursor: pointer;
+    transition: 0.5s;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+
+}
+
+
+.primera_capa h1 {  
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    padding: 1%;
+}
+
+.primera_capa p {  
+    font-weight: bold;
+    font-size:80%;
+    text-align: center;
+    color: rgb(194, 194, 194);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+/*   segundo  panel*/
+.segundo_panel{
+    background-image: url("../../../../public/prograamacion.jpg");
+    margin: 4%;
+    border-radius:5px;
+    background-color: black;
+}
+.segunda_capa{
+    padding: 2%;
+    border-radius:5px;
+    background: rgba(131, 58, 180, 0.089);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 0.582) 0%, rgba(253, 29, 29, 0.171) 50%, rgba(252, 176, 69, 0.651) 100%);
+    cursor: pointer;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.segunda_capa h1 {  
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    padding: 1%;
+    margin-left: 10%;
+}
+
+.segunda_capa p {  
+    font-weight: bold;
+    font-size:80%;
+    text-align: center;
+    color: rgb(194, 194, 194);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+/*   tercer  panel*/
+.tercer_panel{
+    background-image: url("../../../../public/programacion-3.jpg");
+    margin: 4%;
+    border-radius:5px;
+    background-color: black;
+}
+.tercera_capa{
+    padding: 2%;
+    border-radius:5px;
+    background: rgba(131, 58, 180, 0.089);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 0.582) 0%, rgba(253, 29, 29, 0.171) 50%, rgba(252, 176, 69, 0.651) 100%);
+    cursor: pointer;
+    transition: 0.5s;
+    width: 100%;
+}
+
+
+.tercera_capa h1 {  
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    padding: 1%;
+    margin-left: 10%;
+}
+
+.tercera_capa p {  
+    font-weight: bold;
+    font-size:80%;
+    text-align: center;
+    color: rgb(194, 194, 194);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+
+/*   cuarto  panel*/
+.cuarto_panel{
+    background-image: url("../../../../public/Cursos-Gratuitos.png");
+    margin: 4%;
+    border-radius:5px;
+    background-color: black;
+}
+.cuarta_capa{
+    padding: 2%;
+    border-radius:5px;
+    background: rgba(131, 58, 180, 0.089);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 0.582) 0%, rgba(253, 29, 29, 0.171) 50%, rgba(252, 176, 69, 0.651) 100%);
+    cursor: pointer;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.cuarta_capa h1 {  
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    padding: 1%;
+    margin-left: 10%;
+}
+
+.cuarta_capa p {  
+    font-weight: bold;
+    font-size:80%;
+    text-align: center;
+    color: rgb(194, 194, 194);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+/*  tendencias  */
+
+.tendencias-primer-panel{
+    position: absolute;
+    right: 5%;
+    margin-top: 0%;
+    color: antiquewhite;
+    padding: 1%;
+    background-color: rgba(15, 14, 13, 0.89);
+    border-radius: 7px;
+    font-size: 0.8em;
+    display: none;
+    width: 35%;
+    height:50vh;
+    overflow-y: scroll;
+    
+
+}
+
+
+.tendencias-primer-panel::-webkit-scrollbar{
+    width: 4px;
+    
+}
+.tendencias-primer-panel::-webkit-scrollbar-thumb{
+   background-color: rgb(28, 28, 29);
+    width: 10px;
+}
+
+.tendencias-primer-panel .card{
+    
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    padding: 1%;
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tendencias-primer-panel .card-body{
+    background-color: #0f0e0e;
+    padding: 1%;
+    margin-top: 4%;
+    text-align: center;
+
+}
+
+.tendencias-primer-panel .card-body h4{
+    padding: 1%;
+    margin-top: 4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+}
+
+/* pc */
+
+
+@media only screen and  (min-width:760px){
+    .tendencias-primer-panel{
+        position: absolute;
+        right: 5%;
+        margin-top: 4px;
+        color: antiquewhite;
+        padding: 1%;
+        border-radius: 7px;
+        font-size: 0.8em;
+        display: none;
+        width: 35%;
+        height: 30%;
+        overflow-y: scroll;
+        
+    
+    }
+    
+    .primera_capa{
+    padding: 5%;
+    border-radius:5px;
+    background: rgba(131, 58, 180, 0.089);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 0.144) 0%, rgba(253, 29, 29, 0.171) 50%, rgba(252, 176, 69, 0.651) 100%);
+    cursor: pointer;
+    transition: 0.5s;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+
+}
+
+.container_paneles{
+
+    position:relative;
+    margin-top: 40%;
+    height: auto;
+ 
+
+}
+}
